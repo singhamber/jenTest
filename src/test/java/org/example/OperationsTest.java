@@ -11,7 +11,7 @@ class OperationsTest {
         String parameter = System.getProperty("Parameter");
         assertEquals("Param", parameter);
         Operations operations = new Operations();
-        int add = operations.add(1, 2);
-        assertEquals(3, add);
+        int add = operations.add(2, 3);
+        assertEquals(5, add);
     }
 }
