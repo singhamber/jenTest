@@ -8,6 +8,8 @@ class OperationsTest {
 
     @Test
     void add() {
+        String parameter = System.getProperty("Parameter");
+        assertEquals("Param", parameter);
         Operations operations = new Operations();
         int add = operations.add(1, 2);
         assertEquals(3, add);
